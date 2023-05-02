@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+table{
+    border-spacing: 0px;
+    background-color: white; 
+    margin-top: 2em;
+    width: 100%;
+}
+td,th{
+    padding: 1em;
+    text-align: center;
+}
+th{
+    background-color: rgb(0, 140, 255);
+    color: white;
+}
+td{
+    border-bottom: 1px solid black;
+}
+nav{
+    background-color: rgb(0, 140, 255);
+    margin: auto;
+    height: 5em;
+    text-align: center;
+    color: white;
+    font-size: larger;
+}
+.user{
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+    border: none;
+    color: white;
+    text-decoration: none;
+  }
+  .user a{
+    padding-top: 10px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-size: large;
+    background-color: rgb(0, 140, 255);
+    border-radius: 5px;
+    width: 5em;
+    height: 1.6em;
+  }
+  b{
+    color: white;
+  }
+
